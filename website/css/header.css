@@ -12,6 +12,7 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
+    min-height: 50px;
     list-style-type: none;
     background-color: var(--grey);
 }
@@ -22,6 +23,7 @@ header {
     transition-duration: 2s;
     flex-grow: 1;
     justify-content: center;
+    align-items: center;
     padding: 10px 10px;
     text-decoration: none;
 }

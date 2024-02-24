@@ -1,14 +1,27 @@
 @import url(global-var.css);
 
-h1 {
-    color: var(--blue);
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .content {
-    background-color: var(--grey);
+    flex: 1;
+    background-color: var(--white);
     background-image: url("../../resource/img/cn_tower.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 606px;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--blue);
 }
 
 .submit-button {
